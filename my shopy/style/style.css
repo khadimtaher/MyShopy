@@ -1,0 +1,360 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+
+}
+
+.logo {
+    color: white;
+    margin-left: 30px;
+    line-height: 10vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    display: flexbox;
+
+}
+
+
+.container ul {
+    list-style: none;
+    margin-right: 45px;
+    display: flex;
+    line-height: 10vh;
+}
+
+.container ul li a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.2s;
+}
+
+
+.container a:hover {
+    font-size: 25px;
+
+    border-bottom: 3px solid red
+}
+
+
+.custom-shape-divider-bottom-1689605639 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1689605639 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 78px;
+}
+
+.custom-shape-divider-bottom-1689605639 .shape-fill {
+    fill: #F6ECEC;
+}
+
+
+.hero {
+
+    background-color: rgb(59, 4, 4);
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.content {
+    display: grid;
+    place-content: center;
+    display: flex;
+   
+}
+
+
+.content .h1 {
+    display: grid;
+    align-items: center;
+    margin-top: 30vh;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 10px;
+    height: 30px;
+    text-shadow: 0 0 3px #ff0000,0 0 5px #0000ff;
+    font-style: oblique;
+    color: cyan;
+ 
+}
+.h1:hover{
+    color: rgb(241, 0, 149);
+    transform: skew(25deg);
+  
+}
+
+.products {
+    margin: 40px;
+    margin: 20px;
+
+}
+
+.product-heading {
+
+    display: grid;
+    place-items: center;
+    border-bottom: 1px solid rgb(29, 21, 13);
+    width: 100%;
+}
+
+.pro-heading {
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+p {
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.material {
+
+    width: 90%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    margin: 60px;
+}
+.box:hover{
+    color: rgb(231, 3, 3);
+    text-shadow: 2px, 2px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+img {
+    margin-left: 20px;
+    margin: 10px;
+    width: 90%;
+    height: 10rem;
+    display: grid;
+    align-items: center;
+    transition: 0.2s;
+    background-color: red;
+    transform: skew(-25ged);
+}
+img:hover{
+
+    transform: scalex(0.5);
+
+}
+
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+
+}
+
+.address {
+    display: grid;
+    justify-content: space-between;
+    width: 50%;
+    display: flex;
+    margin-top: 50px;
+
+
+}
+
+.address-2 {
+    float: right;
+    display: grid;
+    place-items: center;
+
+}
+
+.address-2 ul {
+
+    list-style: none;
+    margin-right: 70px;
+    padding: 30px;
+
+
+}
+
+.address-2 ul a {
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: 01s;
+}
+
+.address-2 ul a:hover {
+    color: rgb(255, 3, 179);
+    border-bottom: 2px solid rgb(255, 3, 179);
+    ;
+}
+
+i:hover {
+
+    color: red;
+
+    display: bl;
+}
+
+iframe {
+
+    width: 100%;
+    height: 31vh;
+    margin: 30px;
+}
+
+/* -------------------MEDIA QUERY------------------ */
+
+@media(min-width:400px) and (max-width:800px){
+ 
+    .header{
+        width: 100%;
+
+    }
+
+}
+@media(min-width:200px) and (max-width:800px){
+    .logo{
+        display: flex;
+        font-size: 20px;
+
+    }
+}
+@media(min-width:200px) and (max-width:800px){
+   
+     .container ul li a{
+        font-size: 10px;
+        margin: 5px;
+     }
+     .container ul li a:hover{
+        font-size: 13px;
+     }
+    
+}
+
+@media(min-width:200px) and (max-width:800px){
+
+    .hero{
+        text-align: center;
+        
+    }
+}
+
+@media(min-width:200px) and (max-width:800px){
+
+    .products{
+        width: 100%;
+    }
+    .product-heading{
+        text-align: center;
+        
+    }
+    .product-heading p{
+        
+        font-size: 12px;
+    }
+   
+}
+
+@media(min-width:200px) and (max-width:800px){
+
+    .material{
+        width: 100%;
+        display: grid;
+      
+
+    }
+    .shoping{
+        width: 100%;
+        display: grid;
+        display: block;
+       
+         
+    }
+    .box img{
+        height: 70px;
+      
+    }
+    .shoping.box h3{
+        font: 10px;
+    }
+}
+@media(min-width:200px) and (max-width:800px){
+    footer{
+        width: 100%;
+        justify-content: space-between;
+
+    }
+    .address{
+        width: 100%;
+        height: 30px;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    iframe{
+        width: 200%;
+        height: 20vh;
+    }
+    
+}
+@media(min-width:200px) and (max-width:800px){
+    .address-2{
+        font: 10px;
+        display: block;
+        margin-left: 70px;
+        display: flex;
+       
+    }
+    .address-2 ul  a{
+        font-size: 20px;
+        padding: 5px;
+        display: flex;
+
+    }
+}
+
+
